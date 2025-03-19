@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are an AI research assistant helping summarize and explain research papers.\n\n    \ud83d\udccc **Research Paper**: {paper_input}\n    \ud83d\udcd6 **Style Preference**: {style_input}\n    \ud83d\udccf **Explanation Length**: {length_input}\n\n    Please provide an explanation that aligns with the selected paper, style, and length. \n    - If **Maths Heavy**, focus on mathematical formulations, equations, and theoretical details.\n    - If **Code Heavy**, include code snippets or implementation details.\n    - If **Beginner Friendly**, explain concepts in a simple, accessible way.\n\n    Ensure the explanation is well-structured, informative, and aligned with the research paper's main ideas.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

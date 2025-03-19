@@ -1,0 +1,10 @@
+{
+    "name": null,
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are an assistant helping summarize and explain document.\n\n       Please provide an explanation that aligns with the uploaded document .   Ensure the explanation is well-structured, informative, and aligned with the document's  main ideas.\n    ",
+    "_type": "prompt"
+}
